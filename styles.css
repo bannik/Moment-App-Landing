@@ -1,0 +1,35 @@
+@font-face { font-family: museo; src: url('MuseoSans-100.otf'); } 
+body{
+	background-color: white;
+}
+h1, h1 span{
+	font-family: museo;
+	color: #202326;
+	font-size: 29pt;
+}
+#main{
+	box-shadow: none;
+	border: none;
+	margin: 0;
+	padding: 0;
+}
+#blank{
+	border: none;
+	background: #fff;
+	color: gray;
+	height: 50px;
+	font-size: 35pt;
+	font-family: museo;
+	margin-right: 20px;
+}
+#sub{
+	height: 50px !important;
+	background-color: #4ace72 !important;
+	width: 115px;
+	color: #fff;
+	font-size: 20pt;
+	border: none;
+	font-family: museo;
+	margin-top: 1px;
+	cursor: pointer;
+}
